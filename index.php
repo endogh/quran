@@ -1,7 +1,7 @@
 <?php include "components/head.html";?>
 
 <body>
-   <div class="github">
+   <div class="github" href="https://github.com/endogh/quran">
       <a id="github">
          <img src="./images/peel.png" width="50" height="50" class="d-inline-block align-top" alt="github">
       </a>
