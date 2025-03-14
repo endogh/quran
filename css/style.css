@@ -1,0 +1,149 @@
+:root {
+   --dark: #05407a;
+   --softblue:#3c9de7;
+   --warm: #cac8b2;
+  --white: #ffffff; 
+}
+
+html, body {
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+   background-color: var(--dark);
+}
+
+.bg-softblue {
+   background-color: #3b5998; /* Warna biru lembut */
+}
+
+.bg-warm {
+   background-color: #f4e1c1; /* Warna hangat */
+}
+
+.bg-dark {
+   background-color: #222; /* Warna gelap */
+}
+
+.bg-light {
+   background-color: #f9f9f9; /* Warna terang */
+}
+
+
+/* .bg-dark {
+   background-color: var(--dark);
+   color:#05407a;
+} */
+
+/* Light Mode*/
+body.light-mode {
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+   background-color: var(--warm);
+   color: black;
+}
+
+div.card.light-mode {
+   background-color: var(--white);
+}
+
+/*body.dark-mode {
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+   background-color: var(--warm);
+   color: black;
+}
+
+div.card.dark-mode {
+   background-color: var(--white);
+} */
+/* Styling gambar agar kursor jadi pointer */
+/* #theme-toggle a {
+   cursor: pointer;
+}
+
+div.content {
+   flex: 1; /* Pushes the footer to the bottom 
+   
+} */
+/* div.card {
+   background-color: rgb(10, 86, 179);
+}
+div.surahList {
+   background-color: rgb(140, 215, 241);
+} */
+.footer {
+   background-color: #f8f9fa;
+   text-align: center;
+   padding: 10px;
+}
+section.sticky {
+
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+  } 
+
+.github{
+   position: fixed ;
+   top: 0;
+   right: 0;
+}
+  .image-container {
+      position: relative;
+      display: inline-block;
+  }
+  
+  .image-container img {
+      width: 100%;
+      display: block;
+  }
+  
+  .overlay-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: rgba(0, 0, 0, 0); /* Transparan hitam */
+
+      font-size: 12px;
+  }
+
+  @font-face {
+   font-family: 'Sinbad';
+   src: url('../fonts/SinbadtheSailor.ttf') format('truetype'); /* Load dari localhost */
+   font-weight: normal;
+   font-style: normal;
+}
+
+.loading-text {
+   font-family: 'Sinbad', sans-serif;
+   font-size: 20px;
+   text-align: center;
+   margin-top: 20px;
+   white-space: nowrap;
+   overflow: hidden;
+   width: 0;
+   display: inline-block;
+   border-right: 2px solid transparent;
+   animation: typing 2s steps(10, end) infinite alternate;
+}
+
+@keyframes typing {
+   from { width: 0; }
+   to { width: 210px; } /* Sesuaikan dengan panjang kata */
+} 
+
+
+/* Animasi titik berkedip */
+/* .dots {
+   display: inline-block;
+   animation: blink 1.5s infinite;
+} */
+
+/* @keyframes blink {
+   0% { opacity: 0; }
+   50% { opacity: 1; }
+   100% { opacity: 0; }
+} */
